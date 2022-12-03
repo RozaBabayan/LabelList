@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/work/hw-rbabayan/hw1/labellist.cpp
+labellist.h
+/work/hw-rbabayan/hw1/labellist.h
+cassert
+-
+iostream
+-
+
+/work/hw-rbabayan/hw1/labellist.h
+iostream
+-
+string
+-
+vector
+-
+

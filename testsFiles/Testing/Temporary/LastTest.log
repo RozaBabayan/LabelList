@@ -1,0 +1,939 @@
+Start testing: Jan 28 07:27 UTC
+----------------------------------------------------------
+1/23 Testing: LabelList.Nominal
+1/23 Test: LabelList.Nominal
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=LabelList.Nominal"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"LabelList.Nominal" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5085== Memcheck, a memory error detector
+==5085== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5085== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5085== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=LabelList.Nominal
+==5085== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = LabelList.Nominal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabelList
+[ RUN      ] LabelList.Nominal
+[       OK ] LabelList.Nominal (97 ms)
+[----------] 1 test from LabelList (104 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (129 ms total)
+[  PASSED  ] 1 test.
+==5085== 
+==5085== HEAP SUMMARY:
+==5085==     in use at exit: 0 bytes in 0 blocks
+==5085==   total heap usage: 426 allocs, 426 frees, 130,414 bytes allocated
+==5085== 
+==5085== All heap blocks were freed -- no leaks are possible
+==5085== 
+==5085== For lists of detected and suppressed errors, rerun with: -s
+==5085== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.42 sec
+----------------------------------------------------------
+Test Passed.
+"LabelList.Nominal" end time: Jan 28 07:27 UTC
+"LabelList.Nominal" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/23 Testing: EmptyList.EmptyAndSize
+2/23 Test: EmptyList.EmptyAndSize
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=EmptyList.EmptyAndSize"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"EmptyList.EmptyAndSize" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5086== Memcheck, a memory error detector
+==5086== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5086== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5086== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=EmptyList.EmptyAndSize
+==5086== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyList.EmptyAndSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyList
+[ RUN      ] EmptyList.EmptyAndSize
+[       OK ] EmptyList.EmptyAndSize (29 ms)
+[----------] 1 test from EmptyList (36 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (62 ms total)
+[  PASSED  ] 1 test.
+==5086== 
+==5086== HEAP SUMMARY:
+==5086==     in use at exit: 0 bytes in 0 blocks
+==5086==   total heap usage: 406 allocs, 406 frees, 129,705 bytes allocated
+==5086== 
+==5086== All heap blocks were freed -- no leaks are possible
+==5086== 
+==5086== For lists of detected and suppressed errors, rerun with: -s
+==5086== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.27 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyList.EmptyAndSize" end time: Jan 28 07:27 UTC
+"EmptyList.EmptyAndSize" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/23 Testing: EmptyList.OperationsOnEmptyList
+3/23 Test: EmptyList.OperationsOnEmptyList
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=EmptyList.OperationsOnEmptyList"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"EmptyList.OperationsOnEmptyList" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5087== Memcheck, a memory error detector
+==5087== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5087== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5087== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=EmptyList.OperationsOnEmptyList
+==5087== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyList.OperationsOnEmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyList
+[ RUN      ] EmptyList.OperationsOnEmptyList
+[       OK ] EmptyList.OperationsOnEmptyList (34 ms)
+[----------] 1 test from EmptyList (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (67 ms total)
+[  PASSED  ] 1 test.
+==5087== 
+==5087== HEAP SUMMARY:
+==5087==     in use at exit: 0 bytes in 0 blocks
+==5087==   total heap usage: 404 allocs, 404 frees, 129,752 bytes allocated
+==5087== 
+==5087== All heap blocks were freed -- no leaks are possible
+==5087== 
+==5087== For lists of detected and suppressed errors, rerun with: -s
+==5087== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.14 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyList.OperationsOnEmptyList" end time: Jan 28 07:27 UTC
+"EmptyList.OperationsOnEmptyList" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/23 Testing: Exceptions.Find
+4/23 Test: Exceptions.Find
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Find"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Exceptions.Find" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5088== Memcheck, a memory error detector
+==5088== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5088== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5088== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Find
+==5088== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Find
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Find
+[       OK ] Exceptions.Find (55 ms)
+[----------] 1 test from Exceptions (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (86 ms total)
+[  PASSED  ] 1 test.
+==5088== 
+==5088== HEAP SUMMARY:
+==5088==     in use at exit: 0 bytes in 0 blocks
+==5088==   total heap usage: 384 allocs, 384 frees, 129,262 bytes allocated
+==5088== 
+==5088== All heap blocks were freed -- no leaks are possible
+==5088== 
+==5088== For lists of detected and suppressed errors, rerun with: -s
+==5088== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.21 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Find" end time: Jan 28 07:27 UTC
+"Exceptions.Find" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/23 Testing: Exceptions.Label
+5/23 Test: Exceptions.Label
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Label"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Exceptions.Label" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5089== Memcheck, a memory error detector
+==5089== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5089== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5089== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Label
+==5089== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Label
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Label
+[       OK ] Exceptions.Label (55 ms)
+[----------] 1 test from Exceptions (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (85 ms total)
+[  PASSED  ] 1 test.
+==5089== 
+==5089== HEAP SUMMARY:
+==5089==     in use at exit: 0 bytes in 0 blocks
+==5089==   total heap usage: 406 allocs, 406 frees, 129,812 bytes allocated
+==5089== 
+==5089== All heap blocks were freed -- no leaks are possible
+==5089== 
+==5089== For lists of detected and suppressed errors, rerun with: -s
+==5089== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.07 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Label" end time: Jan 28 07:27 UTC
+"Exceptions.Label" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/23 Testing: Exceptions.Print
+6/23 Test: Exceptions.Print
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Print"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Exceptions.Print" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5090== Memcheck, a memory error detector
+==5090== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5090== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5090== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Print
+==5090== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Print
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Print
+[       OK ] Exceptions.Print (49 ms)
+[----------] 1 test from Exceptions (55 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (75 ms total)
+[  PASSED  ] 1 test.
+==5090== 
+==5090== HEAP SUMMARY:
+==5090==     in use at exit: 0 bytes in 0 blocks
+==5090==   total heap usage: 406 allocs, 406 frees, 129,811 bytes allocated
+==5090== 
+==5090== All heap blocks were freed -- no leaks are possible
+==5090== 
+==5090== For lists of detected and suppressed errors, rerun with: -s
+==5090== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Print" end time: Jan 28 07:27 UTC
+"Exceptions.Print" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/23 Testing: Exceptions.Unlabel
+7/23 Test: Exceptions.Unlabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Unlabel"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Exceptions.Unlabel" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5091== Memcheck, a memory error detector
+==5091== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5091== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5091== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Unlabel
+==5091== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Unlabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Unlabel
+[       OK ] Exceptions.Unlabel (87 ms)
+[----------] 1 test from Exceptions (94 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (114 ms total)
+[  PASSED  ] 1 test.
+==5091== 
+==5091== HEAP SUMMARY:
+==5091==     in use at exit: 0 bytes in 0 blocks
+==5091==   total heap usage: 418 allocs, 418 frees, 130,459 bytes allocated
+==5091== 
+==5091== All heap blocks were freed -- no leaks are possible
+==5091== 
+==5091== For lists of detected and suppressed errors, rerun with: -s
+==5091== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.01 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Unlabel" end time: Jan 28 07:27 UTC
+"Exceptions.Unlabel" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/23 Testing: Label.Label1
+8/23 Test: Label.Label1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Label.Label1"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Label.Label1" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5092== Memcheck, a memory error detector
+==5092== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5092== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5092== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Label.Label1
+==5092== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Label.Label1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Label
+[ RUN      ] Label.Label1
+[       OK ] Label.Label1 (94 ms)
+[----------] 1 test from Label (99 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (120 ms total)
+[  PASSED  ] 1 test.
+==5092== 
+==5092== HEAP SUMMARY:
+==5092==     in use at exit: 0 bytes in 0 blocks
+==5092==   total heap usage: 447 allocs, 447 frees, 131,977 bytes allocated
+==5092== 
+==5092== All heap blocks were freed -- no leaks are possible
+==5092== 
+==5092== For lists of detected and suppressed errors, rerun with: -s
+==5092== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.01 sec
+----------------------------------------------------------
+Test Passed.
+"Label.Label1" end time: Jan 28 07:27 UTC
+"Label.Label1" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/23 Testing: Label.Label2
+9/23 Test: Label.Label2
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Label.Label2"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Label.Label2" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5093== Memcheck, a memory error detector
+==5093== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5093== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5093== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Label.Label2
+==5093== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Label.Label2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Label
+[ RUN      ] Label.Label2
+[       OK ] Label.Label2 (101 ms)
+[----------] 1 test from Label (107 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (127 ms total)
+[  PASSED  ] 1 test.
+==5093== 
+==5093== HEAP SUMMARY:
+==5093==     in use at exit: 0 bytes in 0 blocks
+==5093==   total heap usage: 461 allocs, 461 frees, 132,761 bytes allocated
+==5093== 
+==5093== All heap blocks were freed -- no leaks are possible
+==5093== 
+==5093== For lists of detected and suppressed errors, rerun with: -s
+==5093== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.01 sec
+----------------------------------------------------------
+Test Passed.
+"Label.Label2" end time: Jan 28 07:27 UTC
+"Label.Label2" time elapsed: 00:00:01
+----------------------------------------------------------
+
+10/23 Testing: Find.FindEmpty
+10/23 Test: Find.FindEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Find.FindEmpty"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Find.FindEmpty" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5094== Memcheck, a memory error detector
+==5094== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5094== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5094== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Find.FindEmpty
+==5094== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Find.FindEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Find
+[ RUN      ] Find.FindEmpty
+[       OK ] Find.FindEmpty (21 ms)
+[----------] 1 test from Find (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (48 ms total)
+[  PASSED  ] 1 test.
+==5094== 
+==5094== HEAP SUMMARY:
+==5094==     in use at exit: 0 bytes in 0 blocks
+==5094==   total heap usage: 380 allocs, 380 frees, 128,867 bytes allocated
+==5094== 
+==5094== All heap blocks were freed -- no leaks are possible
+==5094== 
+==5094== For lists of detected and suppressed errors, rerun with: -s
+==5094== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.93 sec
+----------------------------------------------------------
+Test Passed.
+"Find.FindEmpty" end time: Jan 28 07:27 UTC
+"Find.FindEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/23 Testing: Find.FindViaMessage
+11/23 Test: Find.FindViaMessage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Find.FindViaMessage"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Find.FindViaMessage" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5095== Memcheck, a memory error detector
+==5095== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5095== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5095== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Find.FindViaMessage
+==5095== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Find.FindViaMessage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Find
+[ RUN      ] Find.FindViaMessage
+[       OK ] Find.FindViaMessage (76 ms)
+[----------] 1 test from Find (82 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (102 ms total)
+[  PASSED  ] 1 test.
+==5095== 
+==5095== HEAP SUMMARY:
+==5095==     in use at exit: 0 bytes in 0 blocks
+==5095==   total heap usage: 446 allocs, 446 frees, 131,484 bytes allocated
+==5095== 
+==5095== All heap blocks were freed -- no leaks are possible
+==5095== 
+==5095== For lists of detected and suppressed errors, rerun with: -s
+==5095== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.99 sec
+----------------------------------------------------------
+Test Passed.
+"Find.FindViaMessage" end time: Jan 28 07:27 UTC
+"Find.FindViaMessage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/23 Testing: Find.FindViaIndex
+12/23 Test: Find.FindViaIndex
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Find.FindViaIndex"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Find.FindViaIndex" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5096== Memcheck, a memory error detector
+==5096== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5096== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5096== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Find.FindViaIndex
+==5096== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Find.FindViaIndex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Find
+[ RUN      ] Find.FindViaIndex
+[       OK ] Find.FindViaIndex (72 ms)
+[----------] 1 test from Find (78 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (100 ms total)
+[  PASSED  ] 1 test.
+==5096== 
+==5096== HEAP SUMMARY:
+==5096==     in use at exit: 0 bytes in 0 blocks
+==5096==   total heap usage: 446 allocs, 446 frees, 131,470 bytes allocated
+==5096== 
+==5096== All heap blocks were freed -- no leaks are possible
+==5096== 
+==5096== For lists of detected and suppressed errors, rerun with: -s
+==5096== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.98 sec
+----------------------------------------------------------
+Test Passed.
+"Find.FindViaIndex" end time: Jan 28 07:27 UTC
+"Find.FindViaIndex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/23 Testing: Unlabel.UnlabelBadLabel
+13/23 Test: Unlabel.UnlabelBadLabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Unlabel.UnlabelBadLabel"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Unlabel.UnlabelBadLabel" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5097== Memcheck, a memory error detector
+==5097== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5097== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5097== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Unlabel.UnlabelBadLabel
+==5097== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Unlabel.UnlabelBadLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unlabel
+[ RUN      ] Unlabel.UnlabelBadLabel
+[       OK ] Unlabel.UnlabelBadLabel (83 ms)
+[----------] 1 test from Unlabel (89 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (109 ms total)
+[  PASSED  ] 1 test.
+==5097== 
+==5097== HEAP SUMMARY:
+==5097==     in use at exit: 0 bytes in 0 blocks
+==5097==   total heap usage: 443 allocs, 443 frees, 131,784 bytes allocated
+==5097== 
+==5097== All heap blocks were freed -- no leaks are possible
+==5097== 
+==5097== For lists of detected and suppressed errors, rerun with: -s
+==5097== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.98 sec
+----------------------------------------------------------
+Test Passed.
+"Unlabel.UnlabelBadLabel" end time: Jan 28 07:27 UTC
+"Unlabel.UnlabelBadLabel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/23 Testing: Unlabel.Unlabel1
+14/23 Test: Unlabel.Unlabel1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Unlabel.Unlabel1"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Unlabel.Unlabel1" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5098== Memcheck, a memory error detector
+==5098== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5098== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5098== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Unlabel.Unlabel1
+==5098== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Unlabel.Unlabel1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unlabel
+[ RUN      ] Unlabel.Unlabel1
+[       OK ] Unlabel.Unlabel1 (97 ms)
+[----------] 1 test from Unlabel (103 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (123 ms total)
+[  PASSED  ] 1 test.
+==5098== 
+==5098== HEAP SUMMARY:
+==5098==     in use at exit: 0 bytes in 0 blocks
+==5098==   total heap usage: 463 allocs, 463 frees, 132,487 bytes allocated
+==5098== 
+==5098== All heap blocks were freed -- no leaks are possible
+==5098== 
+==5098== For lists of detected and suppressed errors, rerun with: -s
+==5098== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"Unlabel.Unlabel1" end time: Jan 28 07:27 UTC
+"Unlabel.Unlabel1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/23 Testing: Unlabel.UnlabelRemove
+15/23 Test: Unlabel.UnlabelRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Unlabel.UnlabelRemove"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Unlabel.UnlabelRemove" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5099== Memcheck, a memory error detector
+==5099== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5099== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5099== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Unlabel.UnlabelRemove
+==5099== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Unlabel.UnlabelRemove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unlabel
+[ RUN      ] Unlabel.UnlabelRemove
+[       OK ] Unlabel.UnlabelRemove (97 ms)
+[----------] 1 test from Unlabel (103 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (124 ms total)
+[  PASSED  ] 1 test.
+==5099== 
+==5099== HEAP SUMMARY:
+==5099==     in use at exit: 0 bytes in 0 blocks
+==5099==   total heap usage: 461 allocs, 461 frees, 132,234 bytes allocated
+==5099== 
+==5099== All heap blocks were freed -- no leaks are possible
+==5099== 
+==5099== For lists of detected and suppressed errors, rerun with: -s
+==5099== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"Unlabel.UnlabelRemove" end time: Jan 28 07:27 UTC
+"Unlabel.UnlabelRemove" time elapsed: 00:00:01
+----------------------------------------------------------
+
+16/23 Testing: Label.AddRemoveAfterLabel
+16/23 Test: Label.AddRemoveAfterLabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Label.AddRemoveAfterLabel"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Label.AddRemoveAfterLabel" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5100== Memcheck, a memory error detector
+==5100== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5100== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5100== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Label.AddRemoveAfterLabel
+==5100== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Label.AddRemoveAfterLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Label
+[ RUN      ] Label.AddRemoveAfterLabel
+[       OK ] Label.AddRemoveAfterLabel (108 ms)
+[----------] 1 test from Label (113 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (134 ms total)
+[  PASSED  ] 1 test.
+==5100== 
+==5100== HEAP SUMMARY:
+==5100==     in use at exit: 0 bytes in 0 blocks
+==5100==   total heap usage: 486 allocs, 486 frees, 133,718 bytes allocated
+==5100== 
+==5100== All heap blocks were freed -- no leaks are possible
+==5100== 
+==5100== For lists of detected and suppressed errors, rerun with: -s
+==5100== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.02 sec
+----------------------------------------------------------
+Test Passed.
+"Label.AddRemoveAfterLabel" end time: Jan 28 07:27 UTC
+"Label.AddRemoveAfterLabel" time elapsed: 00:00:01
+----------------------------------------------------------
+
+17/23 Testing: MsgToken.ComparisonBool
+17/23 Test: MsgToken.ComparisonBool
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.ComparisonBool"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"MsgToken.ComparisonBool" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5101== Memcheck, a memory error detector
+==5101== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5101== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5101== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.ComparisonBool
+==5101== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.ComparisonBool
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.ComparisonBool
+[       OK ] MsgToken.ComparisonBool (82 ms)
+[----------] 1 test from MsgToken (88 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (110 ms total)
+[  PASSED  ] 1 test.
+==5101== 
+==5101== HEAP SUMMARY:
+==5101==     in use at exit: 0 bytes in 0 blocks
+==5101==   total heap usage: 444 allocs, 444 frees, 131,096 bytes allocated
+==5101== 
+==5101== All heap blocks were freed -- no leaks are possible
+==5101== 
+==5101== For lists of detected and suppressed errors, rerun with: -s
+==5101== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.99 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.ComparisonBool" end time: Jan 28 07:27 UTC
+"MsgToken.ComparisonBool" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/23 Testing: MsgToken.Label
+18/23 Test: MsgToken.Label
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.Label"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"MsgToken.Label" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5102== Memcheck, a memory error detector
+==5102== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5102== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5102== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.Label
+==5102== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.Label
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.Label
+[       OK ] MsgToken.Label (65 ms)
+[----------] 1 test from MsgToken (71 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (92 ms total)
+[  PASSED  ] 1 test.
+==5102== 
+==5102== HEAP SUMMARY:
+==5102==     in use at exit: 0 bytes in 0 blocks
+==5102==   total heap usage: 410 allocs, 410 frees, 129,875 bytes allocated
+==5102== 
+==5102== All heap blocks were freed -- no leaks are possible
+==5102== 
+==5102== For lists of detected and suppressed errors, rerun with: -s
+==5102== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.98 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.Label" end time: Jan 28 07:27 UTC
+"MsgToken.Label" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/23 Testing: MsgToken.Msg
+19/23 Test: MsgToken.Msg
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.Msg"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"MsgToken.Msg" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5103== Memcheck, a memory error detector
+==5103== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5103== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5103== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.Msg
+==5103== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.Msg
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.Msg
+[       OK ] MsgToken.Msg (95 ms)
+[----------] 1 test from MsgToken (100 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (121 ms total)
+[  PASSED  ] 1 test.
+==5103== 
+==5103== HEAP SUMMARY:
+==5103==     in use at exit: 0 bytes in 0 blocks
+==5103==   total heap usage: 412 allocs, 412 frees, 130,050 bytes allocated
+==5103== 
+==5103== All heap blocks were freed -- no leaks are possible
+==5103== 
+==5103== For lists of detected and suppressed errors, rerun with: -s
+==5103== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.Msg" end time: Jan 28 07:27 UTC
+"MsgToken.Msg" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/23 Testing: MsgToken.Ostream
+20/23 Test: MsgToken.Ostream
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.Ostream"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"MsgToken.Ostream" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5104== Memcheck, a memory error detector
+==5104== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5104== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5104== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.Ostream
+==5104== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.Ostream
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.Ostream
+[       OK ] MsgToken.Ostream (66 ms)
+[----------] 1 test from MsgToken (72 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (93 ms total)
+[  PASSED  ] 1 test.
+==5104== 
+==5104== HEAP SUMMARY:
+==5104==     in use at exit: 0 bytes in 0 blocks
+==5104==   total heap usage: 434 allocs, 434 frees, 130,631 bytes allocated
+==5104== 
+==5104== All heap blocks were freed -- no leaks are possible
+==5104== 
+==5104== For lists of detected and suppressed errors, rerun with: -s
+==5104== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.96 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.Ostream" end time: Jan 28 07:27 UTC
+"MsgToken.Ostream" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/23 Testing: MsgToken.NextPrev
+21/23 Test: MsgToken.NextPrev
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.NextPrev"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"MsgToken.NextPrev" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5105== Memcheck, a memory error detector
+==5105== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5105== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5105== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.NextPrev
+==5105== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.NextPrev
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.NextPrev
+[       OK ] MsgToken.NextPrev (78 ms)
+[----------] 1 test from MsgToken (85 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (108 ms total)
+[  PASSED  ] 1 test.
+==5105== 
+==5105== HEAP SUMMARY:
+==5105==     in use at exit: 0 bytes in 0 blocks
+==5105==   total heap usage: 434 allocs, 434 frees, 130,638 bytes allocated
+==5105== 
+==5105== All heap blocks were freed -- no leaks are possible
+==5105== 
+==5105== For lists of detected and suppressed errors, rerun with: -s
+==5105== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.09 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.NextPrev" end time: Jan 28 07:27 UTC
+"MsgToken.NextPrev" time elapsed: 00:00:01
+----------------------------------------------------------
+
+22/23 Testing: Remove.UnlinkNodeLabel
+22/23 Test: Remove.UnlinkNodeLabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Remove.UnlinkNodeLabel"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Remove.UnlinkNodeLabel" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5106== Memcheck, a memory error detector
+==5106== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5106== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5106== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Remove.UnlinkNodeLabel
+==5106== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Remove.UnlinkNodeLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Remove
+[ RUN      ] Remove.UnlinkNodeLabel
+[       OK ] Remove.UnlinkNodeLabel (122 ms)
+[----------] 1 test from Remove (129 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (156 ms total)
+[  PASSED  ] 1 test.
+==5106== 
+==5106== HEAP SUMMARY:
+==5106==     in use at exit: 0 bytes in 0 blocks
+==5106==   total heap usage: 440 allocs, 440 frees, 131,121 bytes allocated
+==5106== 
+==5106== All heap blocks were freed -- no leaks are possible
+==5106== 
+==5106== For lists of detected and suppressed errors, rerun with: -s
+==5106== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.10 sec
+----------------------------------------------------------
+Test Passed.
+"Remove.UnlinkNodeLabel" end time: Jan 28 07:27 UTC
+"Remove.UnlinkNodeLabel" time elapsed: 00:00:01
+----------------------------------------------------------
+
+23/23 Testing: Random.Random
+23/23 Test: Random.Random
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Random.Random"
+Directory: /work/hw-rbabayan/hw1/hw1_tests/label_tests
+"Random.Random" start time: Jan 28 07:27 UTC
+Output:
+----------------------------------------------------------
+==5107== Memcheck, a memory error detector
+==5107== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5107== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5107== Command: /work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Random.Random
+==5107== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Random.Random
+[==========] Running 0 tests from 0 test suites.
+[==========] 0 tests from 0 test suites ran. (16 ms total)
+[  PASSED  ] 0 tests.
+==5107== 
+==5107== HEAP SUMMARY:
+==5107==     in use at exit: 0 bytes in 0 blocks
+==5107==   total heap usage: 371 allocs, 371 frees, 126,982 bytes allocated
+==5107== 
+==5107== All heap blocks were freed -- no leaks are possible
+==5107== 
+==5107== For lists of detected and suppressed errors, rerun with: -s
+==5107== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.93 sec
+----------------------------------------------------------
+Test Passed.
+"Random.Random" end time: Jan 28 07:27 UTC
+"Random.Random" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 28 07:27 UTC

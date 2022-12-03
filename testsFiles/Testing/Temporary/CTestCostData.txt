@@ -1,0 +1,24 @@
+LabelList.Nominal 6 0.237338
+EmptyList.EmptyAndSize 31 0.0411123
+EmptyList.OperationsOnEmptyList 31 0.0366185
+Exceptions.Find 31 0.0388995
+Exceptions.Label 31 0.0346467
+Exceptions.Print 31 0.0322454
+Exceptions.Unlabel 31 0.0324226
+Label.Label1 5 0.202758
+Label.Label2 4 0.251525
+Find.FindEmpty 30 0.0309221
+Find.FindViaMessage 21 0.0472375
+Find.FindViaIndex 5 0.195348
+Unlabel.UnlabelBadLabel 24 0.0408956
+Unlabel.Unlabel1 4 0.249489
+Unlabel.UnlabelRemove 4 0.250053
+Label.AddRemoveAfterLabel 4 0.254219
+MsgToken.ComparisonBool 5 0.197569
+MsgToken.Label 29 0.0337024
+MsgToken.Msg 29 0.0344555
+MsgToken.Ostream 29 0.0332475
+MsgToken.NextPrev 4 0.27231
+Remove.UnlinkNodeLabel 7 0.157716
+Random.Random 30 0.0310723
+---

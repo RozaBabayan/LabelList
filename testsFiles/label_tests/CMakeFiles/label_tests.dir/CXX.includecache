@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/work/hw-rbabayan/hw1/hw1_tests/label_tests/label_tests.cpp
+labellist.h
+-
+gtest/gtest.h
+-
+random
+-
+iostream
+-
+fstream
+-
+sstream
+-
+algorithm
+-
+vector
+-
+utility
+-
+string
+-
+
+/work/hw-rbabayan/hw1/labellist.h
+iostream
+-
+string
+-
+vector
+-
+
